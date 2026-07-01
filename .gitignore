@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Data (never commit datasets)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model checkpoints (large binary files)
+models_checkpoints/*
+!models_checkpoints/.gitkeep
+
+# Environment/secrets
+.env
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
